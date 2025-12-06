@@ -102,7 +102,7 @@ class QuantumNavigationAI:
         Calculate optimal path using quantum superposition principle
         Returns smoothest, most energy-efficient route
         """
-        print(f"🔮 QUANTUM AI: Calculating superposition path from {start} to {end}")
+        print(f"QUANTUM AI: Calculating superposition path from {start} to {end}")
         
         # Generate multiple potential paths in superposition
         superposed_paths = self._generate_superposition_paths(start, end, obstacles)
